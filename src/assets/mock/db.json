@@ -1,0 +1,53 @@
+{
+    "chats" : [
+        {
+            "id": 1,
+            "chatId": 1,
+            "receiverId": 1,
+            "senderId": 2,
+            "content": "Hello",
+            "time": "21:15"
+        },
+        {
+            "id": 2,
+            "chatId": 1,
+            "receiverId": 2,
+            "senderId": 1,
+            "content": "Hello!",
+            "time": "21:16"
+        },
+        {
+            "id": 3,
+            "chatId": 1,
+            "receiverId": 2,
+            "senderId": 1,
+            "content": "How are you??",
+            "time": "21:18"
+        },
+        {
+            "id": 4,
+            "chatId": 1,
+            "receiverId": 1,
+            "senderId": 2,
+            "content": "Fine!!",
+            "time": "21:20"
+        },
+        {
+            "id": 5,
+            "chatId": 2,
+            "receiverId": 1,
+            "senderId": 3,
+            "content": "Hello",
+            "time": "8:06"
+        },
+        {
+            "id": 6,
+            "chatId": 2,
+            "receiverId": 3,
+            "senderId": 1,
+            "content": "Hello",
+            "time": "8:08"
+        }
+    ]
+
+}
