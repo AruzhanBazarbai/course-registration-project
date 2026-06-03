@@ -1,53 +1,61 @@
 {
-    "chats" : [
-        {
-            "id": 1,
-            "chatId": 1,
-            "receiverId": 1,
-            "senderId": 2,
-            "content": "Hello",
-            "time": "21:15"
-        },
-        {
-            "id": 2,
-            "chatId": 1,
-            "receiverId": 2,
-            "senderId": 1,
-            "content": "Hello!",
-            "time": "21:16"
-        },
-        {
-            "id": 3,
-            "chatId": 1,
-            "receiverId": 2,
-            "senderId": 1,
-            "content": "How are you??",
-            "time": "21:18"
-        },
-        {
-            "id": 4,
-            "chatId": 1,
-            "receiverId": 1,
-            "senderId": 2,
-            "content": "Fine!!",
-            "time": "21:20"
-        },
-        {
-            "id": 5,
-            "chatId": 2,
-            "receiverId": 1,
-            "senderId": 3,
-            "content": "Hello",
-            "time": "8:06"
-        },
-        {
-            "id": 6,
-            "chatId": 2,
-            "receiverId": 3,
-            "senderId": 1,
-            "content": "Hello",
-            "time": "8:08"
-        }
-    ]
-
+  "courses": [
+    {
+      "id": 1,
+      "title": "Mathematics",
+      "instructor": "Teacher Aliya",
+      "schedule": "Mon/Wed 9:00",
+      "seats": 5,
+      "total": 5
+    },
+    {
+      "id": 2,
+      "title": "Physics",
+      "instructor": "Teacher Marat",
+      "schedule": "Tue/Thu 11:00",
+      "seats": 1,
+      "total": 4
+    },
+    {
+      "id": 3,
+      "title": "Computer Science",
+      "instructor": "Teacher Marat",
+      "schedule": "Mon/Fri 14:00",
+      "seats": 4,
+      "total": 5
+    },
+    {
+      "id": 4,
+      "title": "History",
+      "instructor": "Teacher Marat",
+      "schedule": "Wed 10:00",
+      "seats": 0,
+      "total": 3
+    },
+    {
+      "title": "test",
+      "instructor": "Teacher Marat",
+      "schedule": "13:00",
+      "seats": 4,
+      "total": 5,
+      "id": 5
+    }
+  ],
+  "enrollments": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Student Aliya",
+      "username": "student",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "name": "Teacher Marat",
+      "username": "teacher",
+      "password": "1234",
+      "role": "teacher"
+    }
+  ]
 }

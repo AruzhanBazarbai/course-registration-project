@@ -1,9 +1,9 @@
 {
-  "name": "telegram-app",
+  "name": "course-registration-platform",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-app-rewired start && json-server --watch db.json --port 8000",
+    "start": "concurrently \"react-app-rewired start\" \"json-server --watch db.json --port 5000\"",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
@@ -19,6 +19,7 @@
     "@types/react-dom": "^18.0.0",
     "@types/react-router-dom": "^5.3.3",
     "classnames": "^2.3.2",
+    "concurrently": "^8.2.2",
     "json-server": "^0.17.4",
     "react": "^18.2.0",
     "react-app-rewire-workbox": "^2.0.1",
